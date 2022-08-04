@@ -25,7 +25,7 @@
 
     <!-- Analytics -->
 
-    <meta name="robots" />
+    <meta name="robots" content="index, follow" />
 
     <script
       async
@@ -110,12 +110,10 @@
         <div class="container bloc-lg">
           <div class="col">
             <div class="col-sm-12">
-              <form
-                id="form_1"
-                novalidate
-                success-msg="Your message has been sent."
-                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-              >
+              <form id="form_1" novalidate>
+                <!-- Next properties are not valid in a form -->
+                <!-- success-msg="Your message has been sent."
+                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!" -->
                 <div class="form-group">
                   <label for="name"> Nom </label>
                   <input id="name" class="form-control" required />
