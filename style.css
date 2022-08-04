@@ -702,8 +702,12 @@ p {
 }
 
 .social {
-  max-width: 400px;
-  margin: auto auto auto auto;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 h2 {
