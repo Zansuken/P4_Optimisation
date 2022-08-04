@@ -705,6 +705,15 @@ p {
   gap: 24px;
 }
 
+.footer-content {
+  padding: 2rem 0 0 0;
+}
+@media screen and (max-width: 375px) {
+  .footer-content {
+    padding: 2rem 0 0 2rem;
+  }
+}
+
 h2 {
   font-size: 22px;
   line-height: 1.4em;
